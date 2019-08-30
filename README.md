@@ -7,7 +7,6 @@ Masonry，RAC等框架就是通过链式编程实现的。
 
 tableView组件化思考：平常使用tavleView需要实现他的代理及数据源，方法扩散，不方便追踪代码和修改。所以我封装了一个tableView组建，使用链式编程的方式，能够快速实现一个tableView，代理及数据源都是通过block返回代码块，这样一个tableView模块相对高内聚，低耦合。
 
-github链接：https://github.com/qw9685/ccTableView.git
 
 ![Untitled.gif](https://upload-images.jianshu.io/upload_images/1822713-34a17ed7f49c26f5.gif?imageMogr2/auto-orient/strip)
 
